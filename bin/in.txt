@@ -1,0 +1,9 @@
+Olá, bom dia/tarde/noite.
+Meu nome é George Matos, sou programador desde 2014
+Porém, resolvi tentar concursos públicos e tive que abandonar um pouco a área
+Continuei criando projetos pequenos para me ajudar na parte, digamos, "burocrática"
+dos meus estudos. Fiz coisa interessantes, mas para resolver problemas muito específicos meus.
+Inclusive, tais projeitos, na maioria simples scripts, podem ser achados aqui no meu Github.
+Todos eles escritos em Shell ou Python.
+
+Abraços.
