@@ -26,7 +26,7 @@ public class Program {
 		
 		pswc.filteredCriteria(list, p -> p.setPrice(p.getPrice() * 1.1));
 		
-		list.forEach(p -> p.setPrice(p.getPrice() * 1.1)); // faz absolutamente a mesma fucking coisa
+		list.forEach(p -> p.setPrice(p.getPrice() * 1.1)); // faz absolutamente a mesma fucking coisa 
 		
 		list.forEach(System.out::println);
 	}
