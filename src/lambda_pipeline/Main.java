@@ -8,17 +8,17 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		List<Integer> list = Arrays.asList(3, 4, 5, 10, 7);
+		List<Integer> numbers = Arrays.asList(3, 4, 5, 10, 7);
 		
-		List<Integer> modifiedList = list.stream().map(x -> x * 10).collect(Collectors.toList());
-		System.out.println(modifiedList);
+		List<Integer> modifiedNumbers = numbers.stream().map(x -> x * 10).collect(Collectors.toList());
+		System.out.println(modifiedNumbers);
 		
-		int sum = list.stream().reduce(0, (x, y) -> x + y);
+		int sum = numbers.stream().reduce(0, (x, y) -> x + y);
 		System.out.println("Soma: " + sum);
 		
-		List<Integer> newList = Arrays.asList(3, 4, 5, 10, 7);
+		List<Integer> newNumbers = Arrays.asList(3, 4, 5, 10, 7);
 		
-		List<Integer> resultList = newList.stream().filter(x -> x % 2 == 0).map(x -> x * 10).collect(Collectors.toList());
+		List<Integer> resultList = newNumbers.stream().filter(x -> x % 2 == 0).map(x -> x * 10).collect(Collectors.toList());
 		
 		System.out.println(resultList);
 	}
