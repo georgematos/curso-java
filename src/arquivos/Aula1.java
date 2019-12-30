@@ -11,7 +11,7 @@ public class Aula1 {
 
 	public static void main(String[] args) {
 
-		File file = new File("D:\\Users\\georg\\eclipse-workspace\\curso_programacao\\src\\in.txt");
+		File file = new File("D:\\Users\\georg\\eclipse-workspace\\curso-java\\src\\in.txt");
 
 		Scanner sc = null;
 
